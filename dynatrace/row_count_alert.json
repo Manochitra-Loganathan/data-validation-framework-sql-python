@@ -1,0 +1,11 @@
+
+{
+  "alert": "Row count mismatch between staging and reporting",
+  "threshold": {
+    "staging_count": 4521,
+    "reporting_count": 4502,
+    "tolerance": 5
+  },
+  "trigger": "delta > tolerance",
+  "status": "firing"
+}
